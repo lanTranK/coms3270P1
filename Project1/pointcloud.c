@@ -72,7 +72,7 @@ void stat1(FILE * inFile, struct Point* points, int rows) {
 
 int main() {
     FILE *fpIn;
-    char* fname = "../data/input1.txt";
+    char* fname = "./test.xyz";
     fpIn = fopen(fname, "rt");
     if (fpIn == NULL) {
         printf("File %s not found\n", fname);
